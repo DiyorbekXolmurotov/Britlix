@@ -1,0 +1,252 @@
+.skills-jamp {
+    .skills-title {
+        display: flex;
+        justify-content: center;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 80px;
+        color: #000000;
+    }
+
+    .skills-fool {
+        display: flex;
+        gap: 40px;
+        @media (max-width: 1250px) {
+          gap: 20px;
+        }
+        @media (max-width: 1110px) {
+            flex-direction: column;
+        }
+        .speaking-box {
+            padding: 30px;
+            max-width: 435px;
+            max-height: 894px;
+            background: #F5F5F5;
+            border-radius: 10px;
+            @media (max-width: 1250px) {
+                max-width: 400px;
+            }
+            @media (max-width: 1110px) {
+                align-items: center;
+                margin-left: 250px;
+                display: flex;
+                flex-direction: column;
+            }
+            @media (max-width: 765px) {
+                margin-left: 150px; 
+            }
+            .speaking-title {
+                margin: 0%;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 80px;
+                color: #263238;
+            }
+
+            .speaking-text {
+                margin-top: 0%;
+                margin-bottom: 40px;
+                max-width: 347px;
+                max-height: 192px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #8F95A5;
+            }
+
+            .speaking-button {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 27px;
+                color: #FFFFFF;
+                background: #263238;
+                border-radius: 5px;
+                text-decoration: none;
+                padding: 17px 64px;
+                &:hover {
+                    transition: 0.6s ease;
+                    color: white;
+                    background-color: #8F95A5;
+                }
+            }
+        }
+
+        .next-to {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            @media (max-width: 500px) {
+                margin-bottom: 200px; 
+            }
+            .two-columns {
+                display: flex;
+                gap: 30px;
+                @media (max-width: 765px) {
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .writing-box {
+                    padding: 20px;
+                    max-width: 434px;
+                    height: 531px;
+                    background: #F5F5F5;
+                    border-radius: 10px;
+                    .writing-title {
+                        margin: 0%;
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 30px;
+                        line-height: 60px;
+                        color: #263238;
+                    }
+
+                    .writing-image {
+                        margin-left: 60px;
+                    }
+
+                    .writing-text {
+                        margin-bottom: 30px;
+                        max-height: 72px;
+                        margin-top: 0%;
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #8F95A5;
+                    }
+
+                    .writing-button {
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 27px;
+                        color: #FFFFFF;
+                        background: #263238;
+                        border-radius: 5px;
+                        text-decoration: none;
+                        padding: 17px 64px;
+                        &:hover {
+                            transition: 0.6s ease;
+                            color: white;
+                            background-color: #8F95A5;
+                        }
+                    }
+                }
+
+                .reading-box {
+                    padding: 20px;
+                    max-width: 435px;
+                    max-height: 531px;
+                    background: #F5F5F5;
+                    border-radius: 10px;
+                    .reading-title {
+                        margin: 0%;
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 30px;
+                        line-height: 80px;
+                        color: #263238;
+                    }
+
+                    .reading-text {
+                        margin-bottom: 40px;
+                        margin-top: 0%;
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #8F95A5;
+                    }
+
+                    .reading-button {
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 27px;
+                        color: #FFFFFF;
+                        background: #263238;
+                        border-radius: 5px;
+                        text-decoration: none;
+                        padding: 17px 64px;
+                        &:hover {
+                            transition: 0.6s ease;
+                            color: white;
+                            background-color: #8F95A5;
+                        }
+                    }
+                }
+            }
+
+            .listening-box {
+                padding: 20px;
+                display: flex;
+                flex-direction: row-reverse;
+                max-width: 885px;
+                max-height: 343px;
+                background: #F5F5F5;
+                border-radius: 10px;
+                @media (max-width: 765px) {
+                    max-width: 700px;
+                }
+                @media (max-width: 500px) {
+                    flex-direction: column; 
+                    padding-left: 50px;
+                }
+                .listening-arxiv {
+                    .listening-title {
+                        margin: 0%;
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 30px;
+                        line-height: 80px;
+                        color: #263238;
+                    }
+    
+                    .listening-text {
+                        margin-top: 0%;
+                        margin-bottom: 40px;
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #8F95A5;
+                    }
+    
+                    .listening-button {
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 27px;
+                        color: #FFFFFF;
+                        background: #263238;
+                        border-radius: 5px;
+                        text-decoration: none;
+                        padding: 17px 64px;
+                        &:hover {
+                            transition: 0.6s ease;
+                            color: white;
+                            background-color: #8F95A5;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
